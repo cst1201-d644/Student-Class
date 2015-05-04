@@ -16,35 +16,39 @@ public class getInformation {
     public String getName() {
         return name;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
 
     private String address;
-     public String getAddress(){
+
+    public String getAddress() {
         return address;
     }
-      public void setAddress(String address){
+
+    public void setAddress(String address) {
         this.address = address;
     }
     private int age;
-      public int getAge(){
+
+    public int getAge() {
         return age;
     }
-    
-    public void setAge(int age){
-        if (age > 0){
+
+    public void setAge(int age) {
+        if (age > 0) {
             this.age = age;
-        }             
+        }
     }
-    
+
     private String phoneNum;
-      public String getPhoneNum(){
+
+    public String getPhoneNum() {
         return phoneNum;
     }
-    
-    public void setPhoneNumber(String phoneNum){
+
+    public void setPhoneNumber(String phoneNum) {
         this.phoneNum = phoneNum;
     }
 }
-
