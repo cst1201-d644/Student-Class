@@ -1,0 +1,54 @@
+package CST1201;
+
+/**
+ *
+ * @author Yadadye
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Student student1 = new Student();
+        Student student2 = new Student();
+        Student student3 = new Student();
+        
+        student1.setName("Yadadye Abramov");
+        student1.setAddress("800 Columbus Rd. ");
+        student1.setAge(20);
+        student1.setPhoneNumber("(718)555-5555");
+        
+        System.out.println("Name: " + student1.getName());
+        System.out.println("Address: " + student1.getAddress());
+        System.out.println("Age: " +student1.getAge());
+        System.out.println("Phone Number: " + student1.getPhoneNumber());
+        System.out.println();
+        
+        student2.setName("Joe Johnson");
+        student2.setAddress("818 Clark St.");
+        student2.setAge(33);
+        student2.setPhoneNumber("(646)989-5676");
+        
+        System.out.println("Name: " + student2.getName());
+        System.out.println("Address: " + student2.getAddress());
+        System.out.println("Age: " + student2.getAge());
+        System.out.println("Phone Number: " + student2.getPhoneNumber());
+        System.out.println();
+        
+        student3.setName("Brook Lopez");
+        student3.setAddress("250 Montgomery Plaza ");
+        student3.setAge(28);
+        student3.setPhoneNumber("(347)878-2612");
+        
+        System.out.println("Name: " + student3.getName());
+        System.out.println("Address: " + student3.getAddress());
+        System.out.println("Age: " + student3.getAge());
+        System.out.println("Phone Number: " + student3.getPhoneNumber());
+        System.out.println();
+        
+        
+        
+    }
+    
+}
